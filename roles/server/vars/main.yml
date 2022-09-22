@@ -1,0 +1,13 @@
+---
+# vars file for server-provision
+KEY_NAME: keypair-1
+INSTANCE_TYPE: t2.micro
+AMI_ID: ami-0e8132a34d0fe87b3
+REGION: us-east-1
+INSTANCE_NAME: projectA-dev
+VPC_SUBNET_ID: subnet-0836cb292d5e9cea9
+ASSIGN_PUBLIC_IP: true
+SECURITY_GROUP: launch-wizard-2
+VOLUME_SIZE_GB: 8
+ansible_ssh_private_key: "/root/keypair-1"
+COUNT: 1
